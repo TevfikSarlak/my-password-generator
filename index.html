@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                  }
+                }
+              }
+            }
+          </script>
+    </head>
+    <body class=" bg-center bg-cover bg-repeat" style="background-image: url('blurry-gradient-haikei.png')">
+    
+        <div class="flex flex-col mt-16  mb-16 w-full mx-auto ">
+            <!--This is the main content of my website -->
+            <h1 class="text-6xl md:text-8xl text-violet-300 justify-center md:text-left ml-2 md:ml-16" >Generate a</h1>
+            <div>
+                <h2 class="text-4xl md:text-6xl text-white justify-center md:text-left ml-2 mb-4 md:ml-16">
+                    <span class="text-pink-400">random </span>Password</h2>
+                <h4 class="text-2xl md:text-3xl text-emerald-500 justify-center md:text-left ml-2 md:ml-16">Create your own secure Password.</h4>
+            </div>
+            <br><br/>
+            <div >
+                <!--This is the explanations part of the features-->
+                <p class="text-sm md:text-xl justify-center md:text-left ml-2 mb-2 md:ml-16 text-white">You determine what features the password can have. </p>
+                <p class="text-xs md:text-xl italic justify-center md:text-left ml-2 md:ml-16 text-white mb-12">Caution: Choosing all options will provide even more security.</p>
+            </div>
+            <div class="flex flex-col space-y-2 mx-auto">
+                <!--This is the part of the arranging the value of password length-->
+                <div>
+                  <input type="range" id="myInput" min="4" max="24" value="8" oninput="mySlider()" class="w-36 accent-pink-600"/>
+                </div>
+              
+                <div>
+                  <p class="text-white">Password length: <span class="space-x-1" id="demo" >8</span></p>
+                </div>
+              
+                <div>
+                  <!--Uppercase checkbox-->
+                  <input type="checkbox" id="upper-case" class="accent-pink-700 "checked />
+                  <label for="upper-case" class="text-white">Uppercase </label>
+                </div>
+              
+                <div>
+                  <!--Lowercase checkbox-->
+                  <input type="checkbox" id="lower-case" class="accent-pink-700 "checked/>
+                  <label for="lower-case" class="text-white">Lowercase </label>
+                </div>
+              
+                <div>
+                  <!--Numbers checkbox-->
+                  <input type="checkbox" id="numbers" class="accent-pink-700 "checked/>
+                  <label for="numbers" class="text-white">Numbers  </label>
+                </div>
+              
+                <div>
+                  <!--Symbols checkbox-->
+                  <input type="checkbox" id="symbols" class="accent-pink-700 "checked/>
+                  <label for="symbols" class="text-white ">Symbols   </label>
+                </div>
+              </div>
+              
+            
+
+            <div class="flex flex-row space-x-2 mx-auto items-center mt-12 " >
+                <!--This is the password section-->
+                <input id="myPass" type="text" class="w-64 md:w-96 h-8 rounded-md p-1 font-semibold text-slate-700 focus:outline-none " />
+                <!--This is the copy button which copies the password-->
+                <button class="px-3 py-1 text-white rounded-md shadow-xl bg-emerald-500 hover:bg-emerald-200 
+                               font-semibold max-w-sm"id="Password-btn" onclick="copyPassword()">Copy</button>
+            </div>
+
+            <div class="flex justify-center mx-auto mt-6">
+                <!--This is the generate button -->
+                <button id="btn" class="px-5 py-3 text-white rounded-md shadow-xl bg-pink-600 hover:bg-pink-300
+                                        font-semibold" onclick="generatePassword()">Generate </button>
+
+            </div>
+ 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
