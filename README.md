@@ -21,7 +21,7 @@ Firstly user can choose his/her password's length which can be a minimum of 4 an
 
 HTML
 CSS
-Bootstrap
+Tailwindcss
 Javascript
 
 
