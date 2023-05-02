@@ -19,7 +19,7 @@ Your password will be displayed in the text area labeled "Generated Password". Y
 <h2>Technologies Used</h2>
 The password generator was built using the following technologies:
 <ul>
-HTML5
+ <li>HTML5</li>
 CSS3
 JavaScript
 Tailwind CSS
