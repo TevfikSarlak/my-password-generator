@@ -1,5 +1,5 @@
 
- 🗝 PASSWORD GENERATOR
+ 🗝 <h1>PASSWORD GENERATOR</h1>
 
  [https://passwordrandomizer.vercel.app/](https://passwordrandomizer.vercel.app/)
 
@@ -9,14 +9,14 @@ This is a simple password generator web application that allows users to create 
 <h2>**Features**</h2>
 Users can choose the length of the password, with a minimum of 4 characters and a maximum of 24 characters.
 Users can select which types of characters to include in the password, including uppercase letters, lowercase letters, symbols, and numbers.
-Getting Started
+<h2>Getting Started</h2>
 To use the password generator, simply visit the website and follow these steps:
 
 Choose the desired length of the password by entering a number between 4 and 24 in the input field labeled "Password Length".
 Check the checkboxes labeled with the types of characters you want to include in the password. You can choose any combination of uppercase letters, lowercase letters, symbols, and numbers.
 Click the "Generate Password" button to generate a password with the selected options.
 Your password will be displayed in the text area labeled "Generated Password". You can copy it to your clipboard by clicking the "Copy to Clipboard" button.
-Technologies Used
+<h2>Technologies Used</h2>
 The password generator was built using the following technologies:
 
 HTML5
