@@ -6,7 +6,7 @@
  
 This is a simple password generator web application that allows users to create a password with a custom length and set of characters.
 
-Features
+<h2>**Features**</h2>
 Users can choose the length of the password, with a minimum of 4 characters and a maximum of 24 characters.
 Users can select which types of characters to include in the password, including uppercase letters, lowercase letters, symbols, and numbers.
 Getting Started
