@@ -18,11 +18,12 @@ Click the "Generate Password" button to generate a password with the selected op
 Your password will be displayed in the text area labeled "Generated Password". You can copy it to your clipboard by clicking the "Copy to Clipboard" button.
 <h2>Technologies Used</h2>
 The password generator was built using the following technologies:
-
+<ul>
 HTML5
 CSS3
 JavaScript
 Tailwind CSS
+</ul>
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
